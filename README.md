@@ -20,7 +20,7 @@ During this process I was able to refactor the code to have buttons for the UI s
 ## Testing ##
 
 The methods I established in this project would outline a lot of security features present, such as login, logout, and create account functionality. Each endpoint had a specific purpose, whether it was retrieving trip information, creating new data, updating existing data, or deleting records. 
-These endpoints allowed the frontend and backend to communicate with one another while keeping the application organized. To help secure the application, protected endpoints required user authentication using JSON Web Tokens (JWTs), which ensured that only authorized users could access the administrative features. Testing these methods and endpoints helped confirm that valid requests worked as expected while unauthorized or invalid requests were handled correctly.
+These endpoints allowed the frontend and backend to communicate with one another while keeping the application organized. Testing these methods and endpoints helped confirm that valid requests worked as expected while unauthorized or invalid requests were handled correctly.
 
 
 ## Reflection ##
