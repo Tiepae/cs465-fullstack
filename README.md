@@ -12,17 +12,19 @@ In addition, MongoDB can improve data reliability through replication by saving 
 
 ## Functionality ##
 
-  While JSON is built off JavaScript, it by itself is not Javascript. It instead is a data format that acts differently from programming languages. I like to think of it like a template for
-  storing data. 
+While JSON is built off JavaScript, it by itself is not Javascript. It instead is a data format that acts differently from programming languages. I like to think of it like a template for
+storing data. 
 
-  During this process I was able to refactor the code to have buttons for the UI so that the user can edit their trip, add trips, and update their trips.
+During this process I was able to refactor the code to have buttons for the UI so that the user can edit their trip, add trips, and update their trips.
 
 ## Testing ##
 
-    Methods for request and retrieval necessitate various types of API testing of endpoints, in addition to the difficulties of testing with added layers of security. Explain your understanding of methods, endpoints, and security in a full stack application.
+The methods I established in this project would outline a lot of security features present, such as login, logout, and create account functionality. Each endpoint had a specific purpose, whether it was retrieving trip information, creating new data, updating existing data, or deleting records. 
+These endpoints allowed the frontend and backend to communicate with one another while keeping the application organized. To help secure the application, protected endpoints required user authentication using JSON Web Tokens (JWTs), which ensured that only authorized users could access the administrative features. Testing these methods and endpoints helped confirm that valid requests worked as expected while unauthorized or invalid requests were handled correctly.
 
-    The methods I established in this project would outline a lot of security features present, such as login, logout or create account -- Finish
 
 ## Reflection ##
 
-    How has this course helped you in reaching your professional goals? What skills have you learned, developed, or mastered in this course to help you become a more marketable candidate in your career field?
+Overall, this course helped me get a better look into what full-stack development actually is. I always knew it involved tying frontend and backend development together, but until now I had never developed a full-stack project myself. The exposure was definitely needed.
+
+I learned about endpoints, single-page applications (SPAs), and JavaScript, while also improving my skills using Windows PowerShell to run local servers and GitHub to manage and upload my project files. These are all valuable skills that have given me more exposure to technologies and tools that many companies expect developers to know, making me a more marketable candidate in the field.
